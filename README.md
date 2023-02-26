@@ -12,3 +12,5 @@ using bootstrap for the grid
 
 
 [click here](https://mapin.vercel.app) to view live site
+
+click on the map to login your activities on the clicked point
