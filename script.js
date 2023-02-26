@@ -89,7 +89,9 @@ class App {
   _getPosition() {
     //load map on screen as soon as location is true
     navigator.geolocation.getCurrentPosition(this._loadMAp.bind(this), () => {
-      document.getElementById("map").innerHTML = `<h1>unable to load map</h1>`;
+      document.getElementById(
+        "map"
+      ).innerHTML = `<h1>unable to load map,allow location access in browser</h1>`;
     });
   }
 
